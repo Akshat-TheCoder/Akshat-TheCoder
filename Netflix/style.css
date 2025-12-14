@@ -27,10 +27,10 @@ body {
     opacity: 1 !important;
 }
 
-.hw86 {
+/* .hw86 {
     height: 100%;
     width: 100%;
-}
+} */
 
 .hw100 {
     height: 100%;
@@ -43,7 +43,7 @@ body {
 header {
     position: relative;
     height: auto;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     max-width: 165rem;
     margin: auto;
     color: white;
