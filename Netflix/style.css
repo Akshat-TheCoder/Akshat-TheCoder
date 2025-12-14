@@ -73,6 +73,7 @@ header {
     z-index: 1;
     max-width: 120rem;
     margin: auto;
+    height: unset;
 }
 
 /* Background image layer */
@@ -585,6 +586,8 @@ ul li:hover .x {
     color: white;
     background: rgb(45, 45, 45);
     padding: 24px;
+    padding-right: 60px;
+    text-align: left;
 }
 
 .sab {
@@ -978,13 +981,23 @@ footer .eng {
         width: 100%;
         padding: 0;
     }
-
-    .faq-btn{
+    .gsa h1{
+        text-align: left;
+    }
+    .faq-btn {
         position: relative;
     }
+
     .svgg {
         position: absolute;
         right: 24px;
+    }
+
+    .scroll ul {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+        align-items: center;
     }
 }
 
